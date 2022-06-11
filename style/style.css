@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Quicksand:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+a > img {
+  width: 20px;
+  cursor: pointer;
+}
+
+li, a {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main-wrapper ul {
+  margin-bottom: 50px;
+}
+
+.main-wrapper ul li > a {
+  font-size: 32px;
+}
+
+.main-wrapper h1 {
+  font-size: 64px;
+  text-transform: uppercase;
+  max-width: 500px;
+}
+
+.main-wrapper a > img {
+  width: 40px;
+  margin-right: 10px;
+  margin-top: 100px;
+}
+
+.button-container {
+  margin-top: 50px;
+}
+
+.testimonial-container {
+  margin-left: 50px;
+}
+
+.testimonial-container img {
+  position: absolute;
+}
+
+.testimonial-container .testimonial-content {
+  position: relative;
+}
+
+.testimonial-container .testimonial-content div {
+  position: absolute;
+  width: 500px;
+  top: 150px;
+  left: 100px;
+}
+
+.testimonial-container .testimonial-content div h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.testimonial-container .testimonial-content div p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonial-container .testimonial-content div span {
+  font-size: 16px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
